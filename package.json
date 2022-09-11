@@ -1,0 +1,17 @@
+{
+  "name": "01proyect",
+  "version": "1.0.0",
+  "description": "Proyecto para probar las funcionalidades de Bootstrap, y para aprender a cambiarlas con SASS",
+  "main": "index.html",
+  "scripts": {
+    "purge": "purgecss --css styles/custom.css --content index.html -o styles/reduced.css"
+  },
+  "author": "Lucas Venutti",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  },
+  "devDependencies": {
+    "purgecss": "^4.1.3"
+  }
+}
